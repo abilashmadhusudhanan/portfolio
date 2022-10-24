@@ -1,0 +1,23 @@
+.table {
+    margin: auto;
+    width: 1200px;
+    margin-bottom: 50px;
+}
+
+.tableCell {
+    border-style:ridge;
+    border-color:azure;
+    padding: 5px;
+}
+
+.tableCellKey {
+    text-decoration: underline;
+}
+
+.tableCellValue {
+    text-align: left;
+}
+
+.link {
+    color: skyblue;
+}

@@ -1,0 +1,15 @@
+.skillsList {
+    display: inline;
+    float: left;
+}
+
+.skillsTable {
+    margin: auto;
+    padding: 1%;
+    width: 900px;
+}
+
+.skillsTableRow {
+    padding: 1%;
+    display: inline;
+}

@@ -1,0 +1,25 @@
+.navBarUl {
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.navBarLi {
+    display: inline;
+}
+
+.navOption {
+    color: white;
+    font-size: 30px;
+    padding: 1%;
+    text-decoration: none;
+}
+
+.navOption:hover {
+    color: #454545;
+    background-color: white;
+}
+
+.activated {
+    color: #454545;
+    background-color: white;
+}

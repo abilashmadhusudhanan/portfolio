@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import { Navigate, Route, Routes } from 'react-router-dom';
+import Education from './pages/Education';
+import Experience from './pages/Experience';
+import About from './pages/About';
+import NavBar from './util/NavBar';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={styles.App}>
+      <div>
+        <h1 className={styles.heading}>Abilash Madhusudhanan</h1>
+        <NavBar />
+        <div>
+          <Routes>
+            <Route path='/' element={<Navigate replace to='/about' />} />
+            <Route path='/about' element={<About />} />
+            <Route path='/education' element={<Education />} />
+            <Route path='/experience' element={<Experience />} />
+            <Route path='/projects' element={<Projects />} />
+            <Route path='/contact' element={<Contact />} />
+          </Routes>
+        </div>
+      </div>
     </div>
   );
 }
