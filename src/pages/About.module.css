@@ -1,15 +1,15 @@
-.skillsList {
-    display: inline;
-    float: left;
+.skillsTableCell {
+    border-left-style: solid;
+    border-left-color: transparent;
+    border-left-width: 1vw;
 }
 
 .skillsTable {
     margin: auto;
     padding: 1%;
-    width: 900px;
 }
 
-.skillsTableRow {
-    padding: 1%;
-    display: inline;
+.image {
+    max-width: 100%;
+    height: auto;
 }

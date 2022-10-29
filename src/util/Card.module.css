@@ -2,8 +2,7 @@
     text-align: justify;
     margin: 5%;
     padding: 3%;
-    border-color: gray;
-    border-style: solid;
-    min-height: 200px;
-    font-size: 25px;
+    border-color: white;
+    border-style: double;
+    font-size: 2vw;
 }

@@ -1,23 +1,55 @@
 .table {
-    margin: auto;
-    width: 1200px;
-    margin-bottom: 50px;
+    margin-bottom: 5vh;
+    border-style: solid;
+    min-width: 83vw;
+    border-radius: 2vw;
+    padding: 2%;
 }
 
-.tableCell {
-    border-style:ridge;
-    border-color:azure;
-    padding: 5px;
+.tableBodyCellKey {
+    width: 20vw;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-width: 1vh;
+    vertical-align: top;
+    font-weight: bold;
 }
 
-.tableCellKey {
+.tableBodyCellValue {
+    text-align: justify;
+    border-style: solid;
+    border-color: transparent;
+    border-bottom-width: 1vh;
+}
+
+.tableBodyCellValueLink {
+    color: skyblue;
+}
+
+.tableHeadCell {
+    min-width: 20vw;
+}
+
+.title {
     text-decoration: underline;
 }
 
-.tableCellValue {
-    text-align: left;
+.title:hover {
+    cursor: pointer;
+    color: blue;
+    text-decoration: none;
 }
 
-.link {
-    color: skyblue;
+.active {
+    color: blue;
+    text-decoration: none;
+}
+
+.active:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+.helperText {
+    font-size: 1vw;
 }
